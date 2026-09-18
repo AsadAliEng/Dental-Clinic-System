@@ -75,4 +75,9 @@ app.put('/api/appointments/:id', async (req, res, next) => { try {
 } catch (e) { next(e); } });
 app.delete('/api/appointments/:id', async (req, res, next) => { try { const id = Number(req.params.id); if (pool) { const r = await q('DELETE FROM appointments WHERE id=$1', [id]); if (!r.rowCount) return res.status(404).json({ success: false, error: 'Appointment not found' }); } else appointments = appointments.filter(a => a.id !== id); res.json({ success: true }); } catch (e) { next(e); } });
 app.use((err, _req, res, _next) => { console.error(err); res.status(500).json({ success: false, error: 'Internal server error' }); });
-app.listen(process.env.PORT || 4000, () => console.log('API running'));
+
+if (require.main === module) {
+  app.listen(process.env.PORT || 4000, () => console.log('API running'));
+}
+
+module.exports = app;
