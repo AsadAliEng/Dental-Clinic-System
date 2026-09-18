@@ -25,7 +25,7 @@ Render required a paid plan/payment method, so the completed public deployment u
 - [API health check](https://dental-clinic-api-omega.vercel.app/api/health)
 
 ## Known limitations
-No-database fallback is in-memory. Authentication, role permissions, automated tests and advanced calendar conflict detection remain future improvements.
+Remote database persistence was skipped for the public demo; local PostgreSQL integration was verified. Authentication, role permissions, automated tests and advanced calendar conflict detection remain future improvements.
 
 
 ## Major Evidence Screenshots

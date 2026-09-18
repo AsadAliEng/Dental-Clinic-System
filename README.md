@@ -27,7 +27,7 @@ Render was evaluated, but the available deployment flow required a paid plan/pay
 - Backend API: [https://dental-clinic-api-omega.vercel.app/](https://dental-clinic-api-omega.vercel.app/)
 - API health: [https://dental-clinic-api-omega.vercel.app/api/health](https://dental-clinic-api-omega.vercel.app/api/health)
 - Frontend is configured with `VITE_API_URL` pointing to the Vercel API.
-- Neon PostgreSQL persistence remains the final deployment step; the API currently reports `database:false` and uses its documented in-memory fallback.
+- Neon/remote PostgreSQL was intentionally skipped because it required a paid setup. Local PostgreSQL was connected, schema-applied, and verified successfully. The public Vercel API uses its documented in-memory fallback.
 
 Never commit `.env` or credentials.
 
