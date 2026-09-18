@@ -43,3 +43,10 @@ Never commit `.env` or credentials.
 ![Appointments list](screenshots/Appointment_list.png)
 
 ![API health with PostgreSQL](screenshots/API_Health.png)
+
+## Organized Submission Files
+
+- [AsadAli Task1 report PDF](docs/AsadAli_Task1_Report.pdf)
+- [AsadAli Task1 submission details](docs/AsadAli_Task1_Submission_Details.md)
+- [PDF report source](docs/PDF_PROJECT_DOCUMENT.md)
+- [Project document](docs/PROJECT_DOCUMENT.md)

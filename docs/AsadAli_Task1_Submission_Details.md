@@ -21,6 +21,6 @@ Render was evaluated, but the available deployment flow required a paid plan/pay
 
 ## Submission Files
 
-- `AsadAli_Task1_Report.pdf` Ã¢â‚¬â€ PDF report with screenshots, deployment links, and Loom link.
-- `AsadAli_Task1_Submission_Details.md` Ã¢â‚¬â€ editable project document.
+- `AsadAli_Task1_Report.pdf` - PDF report with screenshots, deployment links, and Loom link.
+- `AsadAli_Task1_Submission_Details.md` - editable submission details.
 - `README.md` Ã¢â‚¬â€ setup, API, deployment, and evidence notes.

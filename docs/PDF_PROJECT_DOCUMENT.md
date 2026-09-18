@@ -235,17 +235,17 @@ The following checks were completed:
 
 ### Major Evidence Screenshot Placement
 
-![Application startup](screenshots/Startup_terminal.png)
+![Application startup](../screenshots/Startup_terminal.png)
 
-![Dashboard](screenshots/dashbaord.png)
+![Dashboard](../screenshots/dashbaord.png)
 
-![Doctors list](screenshots/Docter_list.png)
+![Doctors list](../screenshots/Docter_list.png)
 
-![Add doctor form](screenshots/Add_Docter.png)
+![Add doctor form](../screenshots/Add_Docter.png)
 
-![Appointments list](screenshots/Appointment_list.png)
+![Appointments list](../screenshots/Appointment_list.png)
 
-![API health with PostgreSQL](screenshots/API_Health.png)
+![API health with PostgreSQL](../screenshots/API_Health.png)
 
 ---
 
