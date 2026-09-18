@@ -19,7 +19,17 @@ All responses use `{ success: true, data }` or `{ success: false, error }`.
 
 ## Deployment
 
-Create a Render PostgreSQL database, configure `DATABASE_URL` and `PORT`, run `server/schema.sql`, deploy the API, then deploy the Vite frontend with `VITE_API_URL` pointing to the public API URL. Never commit `.env` or credentials.
+Render was evaluated, but the available deployment flow required a paid plan/payment method. The working deployment therefore uses Vercel instead.
+
+- GitHub: [https://github.com/AsadAliEng/Dental-Clinic-System/tree/develop](https://github.com/AsadAliEng/Dental-Clinic-System/tree/develop)
+- Frontend deployment: [https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/](https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/)
+- Frontend project URL: [https://dental-clinic-system-chi.vercel.app/](https://dental-clinic-system-chi.vercel.app/)
+- Backend API: [https://dental-clinic-api-omega.vercel.app/](https://dental-clinic-api-omega.vercel.app/)
+- API health: [https://dental-clinic-api-omega.vercel.app/api/health](https://dental-clinic-api-omega.vercel.app/api/health)
+- Frontend is configured with `VITE_API_URL` pointing to the Vercel API.
+- Neon PostgreSQL persistence remains the final deployment step; the API currently reports `database:false` and uses its documented in-memory fallback.
+
+Never commit `.env` or credentials.
 
 
 ## Major Evidence Screenshots

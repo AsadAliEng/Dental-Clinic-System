@@ -1,4 +1,4 @@
-﻿# SmileCare Dental Clinic Management System
+# SmileCare Dental Clinic Management System
 
 ## Project Document
 
@@ -251,21 +251,16 @@ The following checks were completed:
 
 ## 10. Deployment Notes
 
-For Render deployment:
-
-1. Create a PostgreSQL database.
-2. Configure `DATABASE_URL` and `PORT` environment variables.
-3. Run `server/schema.sql`.
-4. Deploy the backend API.
-5. Set `VITE_API_URL` for the frontend.
-6. Deploy the Vite frontend.
-7. Verify `/api/health` from the public backend URL.
+Render was evaluated for deployment, but the available Blueprint flow required a paid plan/payment method. For the working public demonstration, the project was deployed through Vercel.
 
 ### Public Links
 
-- GitHub repository: **Add public GitHub URL here**
-- Backend Render URL: **Add backend URL here**
-- Frontend Render URL: **Add frontend URL here**
+- GitHub develop branch: [https://github.com/AsadAliEng/Dental-Clinic-System/tree/develop](https://github.com/AsadAliEng/Dental-Clinic-System/tree/develop)
+- Vercel frontend deployment: [https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/](https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/)
+- Vercel frontend project URL: [https://dental-clinic-system-chi.vercel.app/](https://dental-clinic-system-chi.vercel.app/)
+- Vercel backend API: [https://dental-clinic-api-omega.vercel.app/](https://dental-clinic-api-omega.vercel.app/)
+- API health endpoint: [https://dental-clinic-api-omega.vercel.app/api/health](https://dental-clinic-api-omega.vercel.app/api/health) 
+The frontend uses `VITE_API_URL=https://dental-clinic-api-omega.vercel.app/api` and the API is deployed from the `server` directory. Neon PostgreSQL persistence is still pending; until `DATABASE_URL` is added, the API reports `database:false` and uses the documented in-memory fallback.
 
 ---
 
@@ -298,12 +293,12 @@ The walkthrough should demonstrate:
 
 ## 13. Final Submission Checklist
 
-- [ ] Public GitHub repository
-- [ ] Code pushed to `develop` branch
-- [ ] Frontend Render URL
-- [ ] Backend Render URL
-- [ ] Working `/api/health` endpoint
-- [ ] Screenshots added
+- [x] Public GitHub repository
+- [x] Code pushed to `develop` branch
+- [x] Frontend Vercel URL
+- [x] Backend Vercel URL
+- [x] Working `/api/health` endpoint
+- [x] Screenshots added
 - [x] Loom URL added as clickable link
 - [ ] PDF exported
 - [ ] PDF uploaded to Google Drive
