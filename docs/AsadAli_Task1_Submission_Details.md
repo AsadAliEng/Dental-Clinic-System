@@ -1,4 +1,4 @@
-# SmileCare Dental Clinic Ã¢â‚¬â€ Submission Details
+# SmileCare Dental Clinic Submission Details
 
 ## Required Submission Links
 
@@ -11,7 +11,7 @@
 
 ## Deployment Note
 
-Render was evaluated, but the available deployment flow required a paid plan/payment method. The application was deployed through Vercel instead. The Vercel frontend and backend API are publicly accessible. Local PostgreSQL was connected, schema-applied, and verified; Neon/remote PostgreSQL was intentionally skipped.
+Render was evaluated, but the available deployment flow required a paid plan/payment method. The application was deployed through Vercel instead. The Vercel frontend and backend API are publicly accessible. Local PostgreSQL was connected, schema-applied, and verified successfully. Neon/remote PostgreSQL was intentionally skipped because it also required a paid plan; the local PostgreSQL setup and supporting screenshots were included as evidence.
 
 ## Google Drive Checklist
 

@@ -19,13 +19,13 @@ All responses use `{ success: true, data }` or `{ success: false, error }`.
 
 ## Deployment
 
-Render was evaluated, but the available deployment flow required a paid plan/payment method. The working deployment therefore uses Vercel instead.
+Render was evaluated, but the available deployment flow required a paid plan/payment method. The application was deployed through Vercel instead. The Vercel frontend and backend API are publicly accessible. Local PostgreSQL was connected, schema-applied, and verified successfully. Neon/remote PostgreSQL was intentionally skipped because it also required a paid plan; the local PostgreSQL setup and supporting screenshots were included as evidence.
 
 - GitHub: [https://github.com/AsadAliEng/Dental-Clinic-System](https://github.com/AsadAliEng/Dental-Clinic-System)
 - Frontend deployment: [https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/](https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/)
 - Frontend project URL: [https://dental-clinic-system-chi.vercel.app/](https://dental-clinic-system-chi.vercel.app/)
 - Frontend is configured with `VITE_API_URL` pointing to the Vercel API.
-- Neon/remote PostgreSQL was intentionally skipped because it required a paid setup. Local PostgreSQL was connected, schema-applied, and verified successfully. The public Vercel API uses its documented in-memory fallback.
+- Local PostgreSQL was connected, schema-applied, and verified successfully; supporting screenshots are included as evidence.
 
 Never commit `.env` or credentials.
 

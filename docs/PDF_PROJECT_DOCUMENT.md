@@ -251,7 +251,7 @@ The following checks were completed:
 
 ## 10. Deployment Notes
 
-Render was evaluated for deployment, but the available Blueprint flow required a paid plan/payment method. For the working public demonstration, the project was deployed through Vercel.
+Render was evaluated, but the available deployment flow required a paid plan/payment method. The public demonstration was deployed through Vercel instead.
 
 ### Public Links
 
@@ -281,7 +281,7 @@ The walkthrough should demonstrate:
 ## 12. Known Limitations
 
 - Authentication and role-based access are not included.
-- Remote PostgreSQL was intentionally skipped for the public demo; local PostgreSQL was verified successfully, while the deployed API uses an in-memory fallback.
+- Neon/remote PostgreSQL was intentionally skipped because it also required a paid plan. Local PostgreSQL was connected, schema-applied, and verified successfully; supporting screenshots are included as evidence.
 - Automated browser tests are not included.
 - Appointment duration is represented by a one-hour conflict rule.
 - Screenshots, public deployment links, Loom link, and Google Drive link must be added before final submission.
@@ -311,4 +311,4 @@ The walkthrough should demonstrate:
 - Public Google Drive PDF link: **Add after uploading `AsadAli_Task1_Report.pdf`**
 - Public Google Drive project document link: **Add after uploading `AsadAli_Task1_Submission_Details.md`**
 
-Render required a paid plan/payment method, so Vercel was used as the deployment alternative. Local PostgreSQL was verified; Neon/remote PostgreSQL was intentionally skipped.
+Render required a paid plan/payment method, so Vercel was used as the deployment alternative. Local PostgreSQL was verified successfully.
