@@ -5,8 +5,6 @@
 - GitHub repository (`develop` branch): [https://github.com/AsadAliEng/Dental-Clinic-System](https://github.com/AsadAliEng/Dental-Clinic-System)
 - Frontend Vercel project: [https://dental-clinic-system-chi.vercel.app/](https://dental-clinic-system-chi.vercel.app/)
 - Latest frontend deployment: [https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/](https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/)
-- Backend API: [https://dental-clinic-api-omega.vercel.app/](https://dental-clinic-api-omega.vercel.app/)
-- API health endpoint: [https://dental-clinic-api-omega.vercel.app/api/health](https://dental-clinic-api-omega.vercel.app/api/health)
 - Loom walkthrough: [https://www.loom.com/share/e87f5c848fee4e3b83b1b9ab0831334a](https://www.loom.com/share/e87f5c848fee4e3b83b1b9ab0831334a)
 - Public Google Drive PDF link: **Add after uploading `AsadAli_Task1_Report.pdf`**
 - Public Google Drive project document link: **Add after uploading `AsadAli_Task1_Submission_Details.md`**

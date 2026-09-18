@@ -24,8 +24,6 @@ Render was evaluated, but the available deployment flow required a paid plan/pay
 - GitHub: [https://github.com/AsadAliEng/Dental-Clinic-System](https://github.com/AsadAliEng/Dental-Clinic-System)
 - Frontend deployment: [https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/](https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/)
 - Frontend project URL: [https://dental-clinic-system-chi.vercel.app/](https://dental-clinic-system-chi.vercel.app/)
-- Backend API: [https://dental-clinic-api-omega.vercel.app/](https://dental-clinic-api-omega.vercel.app/)
-- API health: [https://dental-clinic-api-omega.vercel.app/api/health](https://dental-clinic-api-omega.vercel.app/api/health)
 - Frontend is configured with `VITE_API_URL` pointing to the Vercel API.
 - Neon/remote PostgreSQL was intentionally skipped because it required a paid setup. Local PostgreSQL was connected, schema-applied, and verified successfully. The public Vercel API uses its documented in-memory fallback.
 
