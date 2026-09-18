@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: dental-clinic-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: dental-clinic-db
+          property: connectionString
+      - key: PORT
+        value: "10000"
+
+  - type: web
+    name: dental-clinic-frontend
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://dental-clinic-api.onrender.com/api
+
+databases:
+  - name: dental-clinic-db
