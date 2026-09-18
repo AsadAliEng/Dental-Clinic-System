@@ -19,7 +19,7 @@ The major evidence screenshots are included below and are ready for PDF conversi
 
 Render required a paid plan/payment method, so the completed public deployment uses Vercel.
 
-- [GitHub develop branch](https://github.com/AsadAliEng/Dental-Clinic-System/tree/develop)
+- [GitHub develop branch](https://github.com/AsadAliEng/Dental-Clinic-System)
 - [Frontend deployment](https://dental-clinic-system-3f11zd4e4-asad-6cc9.vercel.app/)
 - [Backend API](https://dental-clinic-api-omega.vercel.app/)
 - [API health check](https://dental-clinic-api-omega.vercel.app/api/health)
